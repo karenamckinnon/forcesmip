@@ -1,0 +1,15 @@
+name: forcemip-hackathon
+channels:
+  - conda-forge
+dependencies:
+  - xcdat
+  - pandas
+  - numpy
+  - xarray
+  - matplotlib
+  - cartopy
+  - scikit-learn
+  - tensorflow
+  - eofs
+  - scipy
+  - ipykernel 
