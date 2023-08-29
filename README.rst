@@ -2,36 +2,8 @@
 ForceSMIP
 =========
 
+The Forced Component Estimation Statistical Method Intercomparison Project (ForceSMIP) will utilize climate model ensembles to develop and assess statistical methods for isolating the forced response from individual realizations of the climate system. These methods will then be applied to observations to produce a community estimate of the forced climate response.
 
-.. image:: https://img.shields.io/pypi/v/forcesmip.svg
-        :target: https://pypi.python.org/pypi/forcesmip
-
-.. image:: https://img.shields.io/travis/karenamckinnon/forcesmip.svg
-        :target: https://travis-ci.com/karenamckinnon/forcesmip
-
-.. image:: https://readthedocs.org/projects/forcesmip/badge/?version=latest
-        :target: https://forcesmip.readthedocs.io/en/latest/?version=latest
-        :alt: Documentation Status
-
-
-
-
-Repository for functions and notebooks associated with the ForceSMIP project and hackathon.
-
+This repository contains functions, scripts, and notebooks associated with the [ForceSMIP project](https://sites.google.com/ethz.ch/forcesmip/) and hackathon. The `notebooks` directory contains example methodologies for obtaining the forced climate response using ForceSMIP data (via Jupyter Notebooks). The `scripts` directory also contains methodologies (but not in Jupyter Notebook format). Methods include dynamical adjustment, linear inverse models, linear regression models (e.g., ridge, PLS, multiple linear), neural networks, and low frequency component analysis. 
 
 * Free software: MIT license
-* Documentation: https://forcesmip.readthedocs.io.
-
-
-Features
---------
-
-* TODO
-
-Credits
--------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
